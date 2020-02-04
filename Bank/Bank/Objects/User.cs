@@ -8,13 +8,11 @@ namespace Bank.Objects
 {
     class User
     {
-        protected String Name { get; set; }
-        protected String Surname { get; set; }
-        protected Address Address { get; set; }
-        protected String Mail { get; set; }
-        protected String Phone { get; set; }
-
-
-
+        public String Name { get; set; }
+        public String SurName { get; set; }
+        public Address Address { get; set; }
+        public String Mail { get; set; }
+        public String Phone { get; set; }
+        public Boolean Valid { get; set; }
     }
 }

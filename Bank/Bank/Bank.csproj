@@ -58,8 +58,9 @@
     <Compile Include="Objects\Admin.cs" />
     <Compile Include="Objects\Customer.cs" />
     <Compile Include="Objects\Official.cs" />
-    <Compile Include="Types\Class1.cs" />
+    <Compile Include="Types\AdminType.cs" />
     <Compile Include="Types\CustomerType.cs" />
+    <Compile Include="Types\OfficialType.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

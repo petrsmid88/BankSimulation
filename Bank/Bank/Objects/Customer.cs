@@ -13,8 +13,6 @@ namespace Bank.Objects
 
         private String Password { get; set; }
 
-        private Boolean Valid { get; set; }
-
         private CustomerType CustomerType { get; set; }
 
     }
