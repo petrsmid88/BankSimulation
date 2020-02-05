@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Bank.Objects;
+using Bank.ORM;
+using Bank.Types;
 
 namespace Bank
 {
@@ -23,6 +26,23 @@ namespace Bank
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        Class1 con = new Class1();
+        con.OpenConnection();
+
+
+        //Admin admin = UsersORM.GetAdmin(Login.Text, Password.Text);
+        //if (admin.AdminType == AdminType.SuperAdmin)
+        //{
+
+        //}
+        //else if (admin.AdminType == AdminType.Admin)
+        //{
+        //}
         }
     }
 }

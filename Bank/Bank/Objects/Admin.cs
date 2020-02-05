@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Bank.Types;
 
 namespace Bank.Objects
 {
-    class Admin
+    public class Admin : User
     {
-        private AdminType AdminType { get; set; }
-        private String Password { get; set; }
-        private String Login { get; set; }
+        public AdminType AdminType { get; set; }
+        public String Password { get; set; }
+        public String Login { get; set; }
     }
 }
