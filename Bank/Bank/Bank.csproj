@@ -55,8 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
+    <Compile Include="AdminWindow.xaml.cs">
+      <DependentUpon>AdminWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Objects\Admin.cs" />
     <Compile Include="Objects\Customer.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="Types\AdminType.cs" />
     <Compile Include="Types\CustomerType.cs" />
     <Compile Include="Types\OfficialType.cs" />
-    <Page Include="MainPage.xaml">
+    <Page Include="AdminWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

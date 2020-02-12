@@ -30,19 +30,31 @@ namespace Bank
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-        Class1 con = new Class1();
-        con.OpenConnection();
+
+            Admin admin = UsersORM.GetAdmin(Login.Text, Password.Text);
+           if (admin != null)
+           {
+               AdminWindow adminWindow = new AdminWindow();
+               adminWindow.Show();
+               Close();
+           }
 
 
-        //Admin admin = UsersORM.GetAdmin(Login.Text, Password.Text);
-        //if (admin.AdminType == AdminType.SuperAdmin)
-        //{
+           // Admin admin = new Admin();
+           //admin.SurName = "petr";
+           //admin.Name = "petr";
+           //admin.Guid = new Guid();
+           //admin.Mail = "test@mail.com";
+           //admin.Phone = "777777777";
+           //admin.AdminType = AdminType.Admin;
+           //admin.Address = new Address();
+           //admin.Address.Id = 1;
+           //admin.Login = "petr";
+           //admin.Password = "123456";
+           //admin.Valid = true;
 
-        //}
-        //else if (admin.AdminType == AdminType.Admin)
-        //{
-        //}
+           //UsersORM.CreateAdmin(admin);
+
         }
     }
 }

@@ -1,7 +1,10 @@
-﻿namespace Bank.Objects
+﻿using System.Runtime.Remoting.Metadata.W3cXsd2001;
+
+namespace Bank.Objects
 {
     public class Address
     {
+        public int Id { get; set; }
         public string Street { get; set; }
         public string StreetNumber { get; set; }
         public string City { get; set; }

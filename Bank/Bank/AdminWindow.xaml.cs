@@ -15,13 +15,17 @@ using System.Windows.Shapes;
 namespace Bank
 {
     /// <summary>
-    /// Interaction logic for MainPage.xaml
+    /// Interaction logic for AdminWindow.xaml
     /// </summary>
-    public partial class MainPage : Window
+    public partial class AdminWindow : Window
     {
-        public MainPage()
+        public AdminWindow()
         {
             InitializeComponent();
+        }
+        private void ChangePassword_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Change password");
         }
     }
 }

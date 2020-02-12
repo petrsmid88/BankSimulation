@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Bank"
         mc:Ignorable="d"
         Title="MainWindow" Height="360.877" Width="770.779">
-    <Grid x:Name="MainWindow1" Margin="0,0,2,-31">
+    <Grid x:Name="LoginPage" Margin="0,0,2,-31">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>

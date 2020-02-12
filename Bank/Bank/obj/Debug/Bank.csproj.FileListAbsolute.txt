@@ -26,5 +26,5 @@ C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\Bank.Properties.Res
 C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
 C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\Bank.exe
 C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\Bank.pdb
-C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\MainPage.g.cs
-C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\MainPage.baml
+C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\AdminWindow.g.cs
+C:\Users\smiddpet\Desktop\BankSimulation\Bank\Bank\obj\Debug\AdminWindow.baml
